@@ -1,0 +1,48 @@
+/* ==========================================================================
+   01. CONFIGURAÇÕES INTERNAS (FONTES E VARIÁVEIS)
+   ========================================================================== */
+
+/* Base de cálculo: 1rem = 10px */
+html {
+  font-size: 62.5%;
+}
+
+
+:root {
+  /* Cores Base */
+
+
+  /* Tipografia */
+  --font-titles: Arial, Helvetica, sans-serif;
+  --font-body: 'Tomorrow', Helvetica, sans-serif;
+
+  /* Escala Modular */
+  --font-size-h1: 3.2rem;   /* 32px */
+  --font-size-body: 1.6rem; /* 16px */
+}
+
+/* ==========================================================================
+   02. REGRAS BASE (RESET E COMPORTAMENTO GLOBAL)
+   ========================================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* ==========================================================================
+   03. TIPOGRAFIA E ELEMENTOS REUTILIZÁVEIS
+   ========================================================================== */
+
+header{
+    background-color: black;
+    color: whitesmoke;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
