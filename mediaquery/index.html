@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()"> menu </span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h1>Trabalhando com media</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sunt et itaque. Deleniti autem earum vitae nam et ab similique impedit a possimus, quas inventore qui? Illum nobis beatae saepe.</p>
+
+        
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus ipsum a dignissimos necessitatibus doloremque voluptatem maiores amet dicta, quia, dolorum, cumque tempora quas excepturi enim blanditiis cupiditate natus temporibus velit!</p>
+
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eius omnis temporibus officiis, tempore maiores quibusdam aperiam, culpa dolorem alias iste vel, assumenda quo commodi inventore ratione sequi cupiditate at!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            // O 'toggle' age exatamente como um interruptor boolean:
+            // Se a classe 'active' não existe, ele adiciona. Se já existe, ele remove.
+            document.getElementById('itens').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
