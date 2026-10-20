@@ -81,3 +81,7 @@ article > p {
     text-indent: 20px;
 
 }
+
+article p:nth-child(2){
+    background-color: aqua;
+}
